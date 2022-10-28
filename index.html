@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./img/icon-calculadora.png" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div>
+      <input class="display">
+      <button class="gray-button" onclick="limpaTela()">AC</button>
+      <button class="gray-button" onclick="inverterNumero()">+/-</button>
+      <button class="blue-button"  onclick="newNumber('/')">/</button>
+      <button class="blue-button"  onclick="newNumber('*')">*</button>
+      <button class="black-button" onclick="newNumber('7')">7</button>
+      <button class="black-button" onclick="newNumber('8')">8</button>
+      <button class="black-button" onclick="newNumber('9')">9</button>
+      <button class="blue-button"  onclick="newNumber('-')">-</button>
+      <button class="black-button" onclick="newNumber('4')">4</button>
+      <button class="black-button" onclick="newNumber('5')">5</button>
+      <button class="black-button" onclick="newNumber('6')">6</button>
+      <button class="blue-button"  onclick="newNumber('+')">+</button>
+      <button class="black-button" onclick="newNumber('1')">1</button>
+      <button class="black-button" onclick="newNumber('2')">2</button>
+      <button class="black-button" onclick="newNumber('3')">3</button>
+      <button class="equal-button equal" onclick="calcular()">=</button>
+      <button class="black-button zero" onclick="newNumber('0')">0</button>
+      <button class="black-button" onclick="newNumber('.')">.</button>
+    </div>
+  </body>
+
+  <script>
+ function newNumber(num) {
+    const valueDisplay = document.querySelector(".display").value
+     
+    document.querySelector(".display").value = valueDisplay + num
+}
+
+function limpaTela(){
+    document.querySelector(".display").value = ""
+}
+
+function calcular(){
+    const valueDisplay = document.querySelector(".display").value
+
+    document.querySelector(".display").value = eval(valueDisplay) 
+}
+
+function inverterNumero (){
+  const valueDisplay = document.querySelector(".display").value
+
+  document.querySelector(".display").value = valueDisplay * -1
+}
+
+  </script>
+</html>
