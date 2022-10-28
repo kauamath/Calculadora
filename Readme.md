@@ -4,7 +4,7 @@
 Calculadora criada com  as lives do <a target="_blank" href="https://www.instagram.com/rodolfomorii/">Rodolfo Mori</a> do DevClub.
 </p>
 
-<img src="./img/img-calculadora.png" alt=""> 
+<img src="./img/img-calculadora.png" alt="" width="100%"> 
 
 ## 🚀 Tecnologias
 
