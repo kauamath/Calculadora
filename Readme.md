@@ -15,7 +15,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Mini projeto do uma calculadora.
+Mini projeto de uma calculadora.
 
 ## 🔖 Layout
 
