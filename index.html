@@ -4,14 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"/>
     <link rel="icon" href="./img/icon-calculadora.png" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Calculadora</title>
   </head>
   <body>
@@ -37,29 +34,6 @@
       <button class="black-button" onclick="newNumber('.')">.</button>
     </div>
   </body>
-
-  <script>
- function newNumber(num) {
-    const valueDisplay = document.querySelector(".display").value
-     
-    document.querySelector(".display").value = valueDisplay + num
-}
-
-function limpaTela(){
-    document.querySelector(".display").value = ""
-}
-
-function calcular(){
-    const valueDisplay = document.querySelector(".display").value
-
-    document.querySelector(".display").value = eval(valueDisplay) 
-}
-
-function inverterNumero (){
-  const valueDisplay = document.querySelector(".display").value
-
-  document.querySelector(".display").value = valueDisplay * -1
-}
-
-  </script>
+  <!-- Codigo Javascript -->
+  <script src="./scripts.js"></script>
 </html>
