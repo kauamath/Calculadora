@@ -25,10 +25,6 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 
 <a target="_blank" href="https://calculadora-kauamath.netlify.app/"><b>CLICK PARA ACESSAR!</b></a>
 
-## 🙋🏻 Autor
-
-<a href="https://www.linkedin.com/in/kauã-medeiros-493403228/" target="_blank"><b>Kauã Medeiros</b></a>
-
 ## 🌎<i>Onde me encontrar:</i> <br>
 
 <div style="display: inline_block">
